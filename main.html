@@ -1,27 +1,21 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<style type="text/css"> 
-			body {margin: 30px;} 
-		</style>  
-		<meta charset=utf-8 /> 
-		<title>Remove items from a dropdown list</title>
-	</head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remove Color from Dropdown</title>
+</head>
+<body>
+  <label for="colorSelect">Choose a color:</label>
+  <select id="colorSelect">
+    <option value="Red">Red</option>
+    <option value="Green">Green</option>
+    <option value="White">White</option>
+    <option value="Black">Black</option>
+  </select>
 
-	<body>
-		<form> 
-			<select id="colorSelect"> 
-				<option>Red</option> 
-				<option>Green</option> 
-				<option>White</option> 
-				<option>Black</option> 
-			</select> 
-			<input type="button" value="Select and Remove"> 
-		</form>
+  <input type="button" value="Select and Remove" id="removeButton">
 
-		<script type="text/javascript" src="./script.js">
-		</script>
-
-	</body>
-
+  <script src="scripts.js"></script>
+</body>
 </html>

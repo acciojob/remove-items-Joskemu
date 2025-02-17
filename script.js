@@ -1,4 +1,3 @@
-//your JS code here. If required.
 // Get references to the dropdown list and the button
 const colorSelect = document.getElementById('colorSelect');
 const removeButton = document.getElementById('removeButton');
